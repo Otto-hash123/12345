@@ -1,0 +1,29 @@
+გახსენი ტერმინალი და დააინსტალირე django – (pip install django)
+
+შექმენი პროექტი – (django-admin startproject penguins)
+
+შედი პროექტის ფოლდერში – (cd penguins)
+
+შექმენი 4 აპი – (python manage.py startapp kawasaki) (python manage.py startapp kago) (python manage.py startapp krico) (python manage.py startapp estriper)
+
+გახსენი settings.py და ჩაწერე INSTALLED_APPS-ში ეს ოთხი აპი
+
+გაუშვი მიგრაციები – (python manage.py makemigrations) და მერე (python manage.py migrate)
+
+თითოეულ აპში views.py-ში შექმენი ფუნქცია hello_view რომელიც აბრუნებს "Hello, <აპის სახელი>"
+
+თითოეულ აპში შექმენი urls.py და დაარეგისტრირე იქ hello_view
+
+მთავარ penguins/urls.py ფაილში ჩაწერე path თითოეული აპისთვის (penguin/kawasaki/ penguin/kago/ და ა.შ.)
+
+გაუშვი სერვერი – (python manage.py runserver)
+
+შედი ბრაუზერში და შეამოწმე:
+
+127.0.0.1:8000/penguin/kawasaki
+
+127.0.0.1:8000/penguin/kago
+
+127.0.0.1:8000/penguin/krico
+
+127.0.0.1:8000/penguin/estriper
