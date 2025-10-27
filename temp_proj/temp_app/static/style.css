@@ -1,0 +1,36 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #007bff;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+main {
+    padding: 20px;
+    background: white;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.status {
+    margin-top: 15px;
+    font-weight: bold;
+    color: #007bff;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #eee;
+}
